@@ -24,7 +24,7 @@
 
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Carousel</a>
+        <a class="navbar-brand" href="#">SYDNEY</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,13 +37,9 @@
               <a class="nav-link" href="#">Link</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="#">Link</a>
             </li>
           </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
     </header>
@@ -106,12 +102,12 @@
       <div class="container marketing">
 
         <!-- Three columns of text below the carousel -->
-        <div class="row">
+        <div class="row" style="margin-top: 20px;">
           <div class="col-lg-4">
             <img class="rounded-circle" src="image/Ponte.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>STORIA</h2>
             <p>Sydney, la città più popolosa dell’Oceania, è conosciuta per la sua diversità culturale e la sua importanza economica e culturale a livello globale</p>
-            <p><a class="btn btn-secondary" href="#sidneyStoria" role="button">scopri di più &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="#Storia" role="button">scopri di più &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="image/Cibo.jpg" alt="Generic placeholder image" width="140" height="140">
@@ -121,7 +117,7 @@
               3. Barramundi<br>    
               4. Pavlova<br>    
               5. Lamington</p>
-            <p><a class="btn btn-secondary" href="#sidneyCibo" role="button">scopri di più &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="#cibo" role="button">scopri di più &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="image/Monumenti.jpg" alt="Generic placeholder image" width="140" height="140">
@@ -137,76 +133,108 @@
 
 
         <!-- START THE FEATURETTES -->
-        <a name="sidneyStoria"></a>
         <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            
-            <h2 class="featurette-heading">STORIA</h2>
-            <p class="lead">Sydney è una città con una storia ricca e affascinante, che risale a oltre 45.000 anni fa, quando l'area era abitata da diverse tribù aborigene, in particolare gli Eora e i Cadigal. Queste popolazioni avevano un profondo legame con la terra e il mare, come dimostrano i numerosi siti archeologici e le pitture rupestri ancora visibili oggi.
-              Fondazione della città
-              La storia moderna di Sydney inizia nel 1770, quando il capitano James Cook esplorò la costa orientale dell'Australia e scoprì Botany Bay. Nel 1788, il governatore britannico Arthur Phillip arrivò con la Prima Flotta per stabilire una colonia penale. Inizialmente approdò a Botany Bay, ma successivamente si spostò a Sydney Cove, dove fondò l'insediamento definitivo. Questo evento segnò l'inizio della colonizzazione europea in Australia124.
-              Sviluppo e crescita
-              Nei primi decenni, Sydney crebbe rapidamente. Nel 1822, la città aveva già istituzioni come banche e mercati. Con l'arrivo della corsa all'oro nel 1851, la popolazione aumentò notevolmente, rendendo Sydney un centro cosmopolita. Entro la fine del XIX secolo, la città continuava a espandersi e ad attrarre immigrati da diverse parti del mondo</p>
+        <section id="storia">
+          <div class="item" id="storia">
+            <div class="inner">
+              <img class="third-slide" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEDCXDIEC3Ht1Pmlr_kd9wCn8w2-5Icl0H6C6dHBrImuZ2WFvD7whRqDb9_JxJNYdVj1E8vSx3wiP2Xx3viO4ZkWGo_IbjncF4h3lAp8DU8Rc34Gdd5WHGGO0ZZT4LWm6tqoXOT4bKNbM/s1600/SYDNEY+George+Street+Tram.jpg" alt="Third slide">
+                <a href="https://it.wikipedia.org/wiki/Sydney" name ="storia">STORIA</a>
+                <p>Sydney è una città con una storia ricca e affascinante, che risale a oltre 45.000 anni fa, quando l'area era abitata da diverse tribù aborigene, in particolare gli Eora e i Cadigal. Queste popolazioni avevano un profondo legame con la terra e il mare, come dimostrano i numerosi siti archeologici e le pitture rupestri ancora visibili oggi.
+                  Fondazione della città
+                  La storia moderna di Sydney inizia nel 1770, quando il capitano James Cook esplorò la costa orientale dell'Australia e scoprì Botany Bay. Nel 1788, il governatore britannico Arthur Phillip arrivò con la Prima Flotta per stabilire una colonia penale. Inizialmente approdò a Botany Bay, ma successivamente si spostò a Sydney Cove, dove fondò l'insediamento definitivo. Questo evento segnò l'inizio della colonizzazione europea in Australia124.
+                  Sviluppo e crescita
+                  Nei primi decenni, Sydney crebbe rapidamente. Nel 1822, la città aveva già istituzioni come banche e mercati. Con l'arrivo della corsa all'oro nel 1851, la popolazione aumentò notevolmente, rendendo Sydney un centro cosmopolita. Entro la fine del XIX secolo, la città continuava a espandersi e ad attrarre immigrati da diverse parti del mondo</p>
+            </div>
           </div>
-          <div class="col-md-5">
-            <img class="third-slide" src="image/Pitture_rupestri.jpeg" alt="Third slide">
-          </div>
-        </div>
-        <a name = "sidneyCibo"></a>
+          <style>
+            .item{
+                width: 100%;
+                border-radius: 16px;
+                background: #ffffff;
+                box-shadow:0 5px 15px rgba(63, 63, 63, 0.55) ;
+                transition: all 0.3s ease;
+            }
+            .item .inner{
+                background: #ffffff;
+                padding: 24px;
+                border-radius: 16px;
+                border: none;
+                min-height: 365px;
+            }
+            .item .inner img{
+                width: 100%;
+                max-height: 500px;
+                margin-bottom: 16px;
+                border-radius: 12px;
+            }
+            .item .inner a{
+                font-size: 18px;
+                color: #1c1b1b;
+                margin-bottom: 10px;
+                display: block;
+            }
+            .item .inner p{
+                color: #363636;
+                font-size: 15px;
+                max-height: 300px;
+                overflow: auto;
+            }
+        </style>
+        </section>
         <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">CIBI TIPICI DI SIDNEY</h2><br><br><br>
-            <!DOCTYPE html>
-            <html>
-            <head>
-            </head>
-            <body>
-                <figure>
-                    <img src="image/MeatPie.jpeg" alt="Una deliziosa meat pie australiana"><br><br><br>
-                    <div class="list-group">
+        <section id="cibo">
+          <figure class="text-center" >
+            <blockquote class="blockquote">
+              <p>CIBI TIPICI SYDNEY</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              <p>MEAT PIE,FISH AND CHIPS,PAVLOVA</p>
+            </figcaption>
+          </figure>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="image/MeatPie.jpeg" class="card-img-top" alt="meatpie">
+                  <div class="card-body" style="max-height: 500px;overflow: auto;">
                     <h3 class="titolo-speciale">MEAT PIE:</h3>
-                      <button type="button" class="list-group-item list-group-item-action">Cos'è: Un pasticcio di carne, solitamente di manzo, racchiuso in una crosta croccante e dorata. All'interno, oltre alla carne, si possono trovare salse, cipolle, funghi e altri ingredienti che variano a seconda della ricetta.</button>
-                      <button type="button" class="list-group-item list-group-item-action">Perché è così popolare: È un pasto veloce, sostanzioso e conveniente. Si trova praticamente ovunque, dai supermercati ai pub, e viene spesso consumato come spuntino o pasto leggero.</button>
-                      <button type="button" class="list-group-item list-group-item-action">Come si serve: Caldo, spesso accompagnato da salsa e patatine.</button>
-                      <button type="button" class="list-group-item list-group-item-action">Curiosità: Esistono numerose varianti regionali della meat pie, ognuna con le proprie caratteristiche distintive.</button>
-                    </div>
-                </figure>
-                <figure class="text-center">
-                  <hr class="my-4 w-50 bg-primary hr-shadow">
-                </figure>
-                <figure>
-                    <img src="image/fishadnchips.jpeg" alt="Fish and chips, un piatto sempre apprezzato"><br><br><br>
-                    <div class="list-group">
-                      <h3 class="titolo-speciale">FISH AND CHIPS:</h3>
-                      <button type="button" class="list-group-item list-group-item-action">Cos'è: Un classico intramontabile, composto da filetti di pesce impanati e fritti, accompagnati da patatine fritte e salsa di tartaro.</button>
-                      <button type="button" class="list-group-item list-group-item-action">Perché è così popolare: È un piatto semplice, gustoso e perfetto per una cena informale.</button>
-                      <button type="button" class="list-group-item list-group-item-action">Dove si mangia: Si trova in praticamente tutti i locali di pesce e patatine fritte, ma anche in molti pub e ristoranti.</button>
-                      <button type="button" class="list-group-item list-group-item-action">Varianti: Il pesce può variare, ma il merluzzo è molto comune. Le patatine possono essere tagliate a spicchi o a bastoncini.</button>
-                    </div>
-                </figure>
-                <figure class="text-center">
-                  <hr class="my-4 w-50 bg-primary hr-shadow">
-                </figure>
-                <figure>
-                    <img src="image/Pavlova.jpeg" alt="Un dolce leggero e fresco, la Pavlova"><br><br><br>
-                    <div class="list-group">
-                      <h3 class="titolo-speciale">PAVLOVA:</h3>
-                      <button type="button" class="list-group-item list-group-item-action">Cos'è: Un dolce leggero e arioso, a base di meringa, panna montata e frutta fresca. La meringa forma una base croccante all'esterno e morbida all'interno, mentre la panna montata e la frutta fresca aggiungono un tocco di freschezza.</button>
-                      <button type="button" class="list-group-item list-group-item-action">Perché è così popolare: È un dessert elegante e perfetto per le occasioni speciali.</button>
-                      <button type="button" class="list-group-item list-group-item-action">Varianti: La frutta utilizzata può variare a seconda della stagione. Le più comuni sono fragole, kiwi, passion fruit e lamponi.</button>
-                      <button type="button" class="list-group-item list-group-item-action">Origine: Il nome deriva dalla ballerina russa Anna Pavlova e si discute ancora oggi se sia stata inventata in Australia o in Nuova Zelanda.</button>
-                    </div>
-                </figure>
-            
-            </body>
-            </html>          </div>
-          <div class="col-md-5 order-md-1">
+                    <p class="card-text">Cos'è: Un pasticcio di carne, solitamente di manzo, racchiuso in una crosta croccante e dorata. All'interno, oltre alla carne, si possono trovare salse, cipolle, funghi e altri ingredienti che variano a seconda della ricetta. <br><br>
+                      Perché è così popolare: È un pasto veloce, sostanzioso e conveniente. Si trova praticamente ovunque, dai supermercati ai pub, e viene spesso consumato come spuntino o pasto leggero. <br><br>
+                      Come si serve: Caldo, spesso accompagnato da salsa e patatine. <br><br>
+                      Curiosità: Esistono numerose varianti regionali della meat pie, ognuna con le proprie caratteristiche distintive. <br><br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="image/fishadnchips.jpeg" class="card-img-top" alt="fish and chips" style="height: 190px;">
+                  <div class="card-body" style="max-height: 500px;overflow: auto;">
+                    <h3 class="titolo-speciale">FISH AND CHIPS:</h3>
+                    <p class="card-text">Cos'è: Un classico intramontabile, composto da filetti di pesce impanati e fritti, accompagnati da patatine fritte e salsa di tartaro. <br><br>
+                      Perché è così popolare: È un piatto semplice, gustoso e perfetto per una cena informale. <br><br>
+                      Dove si mangia: Si trova in praticamente tutti i locali di pesce e patatine fritte, ma anche in molti pub e ristoranti. <br><br>
+                      Varianti: Il pesce può variare, ma il merluzzo è molto comune. Le patatine possono essere tagliate a spicchi o a bastoncini. <br><br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="image/Pavlova.jpeg" class="card-img-top" alt="pavlova">
+                  <div class="card-body"style="max-height: 500px;overflow: auto;">
+                    <h3 class="titolo-speciale">PAVLOVA:</h3>
+                    <p class="card-text">Cos'è: Un dolce leggero e arioso, a base di meringa, panna montata e frutta fresca. La meringa forma una base croccante all'esterno e morbida all'interno, mentre la panna montata e la frutta fresca aggiungono un tocco di freschezza.<br><br>
+                      Perché è così popolare: È un dessert elegante e perfetto per le occasioni speciali.<br><br>
+                      Varianti: La frutta utilizzata può variare a seconda della stagione. Le più comuni sono fragole, kiwi, passion fruit e lamponi.<br><br>
+                      Origine: Il nome deriva dalla ballerina russa Anna Pavlova e si discute ancora oggi se sia stata inventata in Australia o in Nuova Zelanda.<br><br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
 
         <hr class="featurette-divider">
 
